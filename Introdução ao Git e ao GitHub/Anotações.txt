@@ -1,0 +1,65 @@
+Passo a passo para usar o git hub:
+1 botao direito na basta onde vai armazenar seus arquivos e clicar git bash here
+1.1 git init inicia o git na pasta local
+2 git status verifica quais arquivos estao ou nao no controle de versão
+3 git add "nome do arquivo", (git add . ou git add * que adiciona todos os arquivos) commita ou adiciona ao controle de versão
+4 git commit -m "commit inicial"
+5 git config --global user.email "rafaelluism@hotmail.com" configurar o github no git
+6 git config --global user.name "Rafael L Martins" o seu nome é importante para que saibam que aquela versão foi feita ou modificada por vc
+7 vc vai no github criar um novo repositorio e apos isso vai copiar o link e voltar ao git
+8 git remote add origin https://github.com/RafaelLMartins/projeto1 vai configurar i guthub no git para depois salvar esses arquivos ao novo repositorio
+9 git push vc vai autorizar logar o git no github caso nao tenha feito e a função vai levar essa versão do arquivo para o repositorio remoto do github
+10 para atualizar o arquivo novamente vai refazer passo 3, 4 e 9
+11 git reflog consegue verificar historico das versões do git
+12 git reset --hard nomedaversão reseta seu arquivo do diretorio local para a versão anterior que vc escolheu
+13 git branch verifica a branch (galho ou separaçao para salvar seu arquivo)
+14 git pull para puxar o arquivos mais atuais do repositório remoto principalmente se trabalhar com outras pessoas acessando os arquivos
+15 git branch enomedabranch cria nova branch
+16 git checkout nomedabranch muda a brach a ser usada
+17 para salvar essa nova branch ou alterações nessa branch no github fazer passo 3, 4, 9
+18 git push --set-upstream origin nomedabranch vai aparecer um erro ao salvar nova branch nesse caso usar esse comando
+19 git checkout nomedabranch seleciona a branch 
+20 git merge nomedabranch uni arquivos da branch secundária para a brach principal 
+21 git push para salvar atualizações para o github 
+22 touch .gitignore cria um arquivo de texto onde vc deve colocar o nome de arquivos e pastas que vc nao quer adicionar ao repositorio do github
+22 git add .gitignore adiciona ao git 
+23 vc deve comitar o git ignore para salvar essas informações
+
+
+
+Git GitHub DIO:
+
+1 no github vai em repositorio/novo/colocar um nome do repositorio/ public (para que outras pessoas vejam seu projeto)/ add readme onde vc vai descrever um resumo do projeto, considerações e colocar links uteis/ criar
+2 no github clique em code/copia o link https
+3 git clone seulink no git para clonar repositorio github
+4 
+5 
+6 
+7 
+
+ssh-keygen -t ed25519 -C seuemail@email.com criar chave 
+cat id-ed25519.pub mostrar a chave 
+Ctrl+L  Limpar terminal 
+ls lista tudo dentro das pastas 
+cd entra na pasta 
+pwd mostra os diretorios 
+eval $(ssh-agent -s) inicialisar o agent 
+ssh-add id-ed25519 passar a chave para o agente 
+git init inicia o git
+commit -m "aqui vc escreve um comentário" salvar no git 
+mkdir criar pasta 
+ls -a  mostrar arquivos ocultos 
+mv move arquivo de pasta 
+echo > arquivo.tipo crias arquivo 
+git config --list tras as configurações do git como email e name 
+git config --global user.name "seu nome" configura seu nick name
+do github
+git config --global user.email "seu email" configura seu email 
+do git hub
+$ git remote add origin https://github.com/RafaelLMartins/livro-
+receitas-.git adiciona o objeto criado no git hub local tracked
+ para repositorio remoto
+$ git remote -v mostra o endereço github para adicionar no 
+repositorio remoto
+git push origin master serve para adicionar ao repositorio
+
