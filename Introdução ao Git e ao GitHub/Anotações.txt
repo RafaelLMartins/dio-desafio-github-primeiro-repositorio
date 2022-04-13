@@ -23,7 +23,8 @@ Passo a passo para usar o git hub:
 21 git push para salvar atualizações para o github 
 22 touch .gitignore cria um arquivo de texto onde vc deve colocar o nome de arquivos e pastas que vc nao quer adicionar ao repositorio do github
 22 git add .gitignore adiciona ao git 
-23 vc deve comitar o git ignore para salvar essas informações
+23 git commit vc deve comitar o git ignore para salvar essas informações repositorio local
+24 git push salva no repositorio remoto
 
 
 
@@ -32,9 +33,9 @@ Git GitHub DIO:
 1 no github vai em repositorio/novo/colocar um nome do repositorio/ public (para que outras pessoas vejam seu projeto)/ add readme onde vc vai descrever um resumo do projeto, considerações e colocar links uteis/ criar
 2 no github clique em code/copia o link https
 3 git clone seulink no git para clonar repositorio github
-4 
-5 
-6 
+4 git add . ou git add nomedoarquivo para adicionar ao git
+5 git commit -m "descrever o que foi feito" salvar alterações ao repositorio local
+6 git push origin main ou git push origin nomedabranch salva no repositorio remoto 
 7 
 
 ssh-keygen -t ed25519 -C seuemail@email.com criar chave 
@@ -62,4 +63,3 @@ receitas-.git adiciona o objeto criado no git hub local tracked
 $ git remote -v mostra o endereço github para adicionar no 
 repositorio remoto
 git push origin master serve para adicionar ao repositorio
-
