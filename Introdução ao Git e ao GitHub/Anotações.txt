@@ -8,7 +8,7 @@ Passo a passo para usar o git hub:
 6 git config --global user.name "Rafael L Martins" o seu nome é importante para que saibam que aquela versão foi feita ou modificada por vc
 7 vc vai no github criar um novo repositorio e apos isso vai copiar o link e voltar ao git
 8 git remote add origin https://github.com/RafaelLMartins/projeto1 vai configurar i guthub no git para depois salvar esses arquivos ao novo repositorio
-9 git push vc vai autorizar logar o git no github caso nao tenha feito e a função vai levar essa versão do arquivo para o repositorio remoto do github
+9 git push --set-upstream origin master vc vai autorizar logar o git no github caso nao tenha feito e a função vai levar essa versão do arquivo para o repositorio remoto do github
 10 para atualizar o arquivo novamente vai refazer passo 3, 4 e 9
 11 git reflog consegue verificar historico das versões do git
 12 git reset --hard nomedaversão reseta seu arquivo do diretorio local para a versão anterior que vc escolheu
